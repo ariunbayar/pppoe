@@ -1,0 +1,14 @@
+## YAML Template.
+---
+index:
+  credentials: [[ district_new_edit ]]
+new:
+  credentials: [[ district_new_edit ]]
+create:
+  credentials: [[ district_new_edit ]]
+edit:
+  credentials: [[ district_new_edit ]]
+update:
+  credentials: [[ district_new_edit ]]
+delete:
+  credentials: [[ district_delete ]]

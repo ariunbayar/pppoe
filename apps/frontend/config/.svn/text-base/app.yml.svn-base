@@ -1,0 +1,26 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  client_ip: '192.168.1.109'
+  client_username: 'incris'
+  client_password: 'incris153'
+  client_token: 'L7EbhniYjNeph0viU56Y'
+  max_customers: 20
+  max_changelogs: 20
+
+  .array:
+    roles:
+      users:          'Админууд'
+      user_new_edit:  'Админийг нэмэх, засах'
+      user_delete:    'Админийг устгах'
+      customers:          'Хэрэглэгчид'
+      customer_new_edit:  'Хэрэглэгч нэмэх, засах'
+      customer_delete:    'Хэрэглэгч устгах'
+      district_new_edit:  'Хорооллууд нэмэх, засах'
+      district_delete:    'Хорооллууд устгах'
+      changelog:  'Түүх'
+      management:  'Maintenance'
+      total_usage:  'Хэрэглээ'
+      ipsetting:  'Тохиргоо'

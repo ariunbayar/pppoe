@@ -1,0 +1,14 @@
+## YAML Template.
+---
+index:
+  credentials: [[ users ]]
+new:
+  credentials: [[ user_new_edit ]]
+create:
+  credentials: [[ user_new_edit ]]
+edit:
+  credentials: [[ user_new_edit ]]
+update:
+  credentials: [[ user_new_edit ]]
+delete:
+  credentials: [[ user_delete ]]

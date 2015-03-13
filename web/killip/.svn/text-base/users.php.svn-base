@@ -1,0 +1,14 @@
+<?php
+/* die if not allowed ip */
+$allowed_ips = array('10.10.38.43', '127.0.0.1');
+$remote_ip = $_SERVER["REMOTE_ADDR"];
+if (!in_array($remote_ip, $allowed_ips)) die('error');
+
+/* die if invalid token */
+$allowed_token = 'L7EbhniYjNeph0viU56Y';
+$token = $_GET['token'];
+if ($token != $allowed_token) die('error');
+
+$command = "ifconfig | grep -o 'inet 172.24.0.1' | wc -l";
+$n = exec($command);
+echo $n;

@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  color: #000000;
+  background-color: #EFEFEF;
+  font-size: .82em;
+  font-family: tahoma,helvetica,sans-serif;
+}
+
+h1{
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+
+#wrapper{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#message{
+  background-color: #DFDFDF;
+  padding: 10px 0 10px 20px;
+}
+
+table.list { border: 1px solid #000000; }
+table.list thead { background-color: #CFCFCF;}
+table.list tr.odd { background-color: #E9E9E9; }
+table.list tr:hover { background-color: #DFDFDF;}
+
+table.form th { text-align: right; width: 150px; }
+table.form th b { color: #FF0000; }
+table.form tbody tr:hover { background-color: #DFDFDF; }
+table.form span.form-help{
+  font-style: italic;
+  font-weight: normal;
+  font-size: .7em;
+}
+
+ul.error_list li{
+  color: #FF0000;
+  list-style: none;
+}
+
+span.red{
+  color: #B62400;
+}
+
+span.green{
+  color: #02C333;
+}

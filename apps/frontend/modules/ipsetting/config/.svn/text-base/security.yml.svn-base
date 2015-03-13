@@ -1,0 +1,4 @@
+## YAML Template.
+---
+default:
+  credentials:  [[ ipsetting ]]

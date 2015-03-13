@@ -1,0 +1,14 @@
+## YAML Template.
+---
+index:
+  credentials: [[ customers ]]
+new:
+  credentials: [[ customer_new_edit ]]
+create:
+  credentials: [[ customer_new_edit ]]
+edit:
+  credentials: [[ customer_new_edit ]]
+update:
+  credentials: [[ customer_new_edit ]]
+delete:
+  credentials: [[ customer_delete ]]

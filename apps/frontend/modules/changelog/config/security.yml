@@ -1,0 +1,4 @@
+## YAML Template.
+---
+index:
+  credentials: [[ changelog ]]
